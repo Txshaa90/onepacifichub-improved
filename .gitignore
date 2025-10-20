@@ -1,3 +1,16 @@
-git add dist
-git commit -m "Add dist folder for deployment"
-git push origin main
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Build folders (remove or comment out dist if you want to track it)
+# dist/
